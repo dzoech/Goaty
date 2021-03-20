@@ -1,0 +1,72 @@
+{
+    "$schema": "https://raw.githubusercontent.com/OfficeDev/microsoft-teams-app-schema/preview/DevPreview/MicrosoftTeams.schema.json",
+    "manifestVersion": "devPreview",
+    "id": "eab5e88a-dc8e-4a2d-a0f5-6e523dbb9e24",
+    "version": "1.5.0",
+    "packageName": "com.sittinggoat.bot",
+    "developer": {
+        "name": "Sitting Goat",
+        "websiteUrl": "https://sittinggoat.azurewebsites.net",
+        "privacyUrl": "https://sittinggoat.azurewebsites.net/privacy.html",
+        "termsOfUseUrl": "https://sittinggoat.azurewebsites.net/tou.html"
+    },
+    "name": {
+        "short": "Goaty",
+        "full": "Goaty Mc Goatface"
+    },
+    "description": {
+        "short": "We love goats",
+        "full": "They are the greatest of all time <3"
+    },
+    "icons": {
+        "outline": "icon-outline.png",
+        "color": "icon-color.png"
+    },
+    "accentColor": "#D85028",
+    "configurableTabs": [],
+    "staticTabs": [],
+    "bots": [
+        {
+            "botId": "eab5e88a-dc8e-4a2d-a0f5-6e523dbb9e24",
+            "scopes": [
+                "team",
+                "personal",
+                "groupchat"
+            ],
+            "needsChannelSelector": false,
+            "isNotificationOnly": false,
+            "supportsFiles": true,
+            "supportsCalling": false,
+            "supportsVideo": true,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Personal command 1",
+                            "description": "Description of Personal command 1"
+                        },
+                        {
+                            "title": "Personal command N",
+                            "description": "Description of Personal command N"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "connectors": [],
+    "composeExtensions": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "sittinggoat.azurewebsites.net"
+    ],
+    "showLoadingIndicator": true,
+    "isFullScreen": true
+}

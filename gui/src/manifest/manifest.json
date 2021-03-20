@@ -35,39 +35,7 @@
       ]
     }
   ],
-  "bots": [
-    {
-      "botId": "eab5e88a-dc8e-4a2d-a0f5-6e523dbb9e24",
-      "scopes": [
-        "team",
-        "personal",
-        "groupchat"
-      ],
-      "needsChannelSelector": false,
-      "isNotificationOnly": false,
-      "supportsFiles": true,
-      "supportsCalling": false,
-      "supportsVideo": true,
-      "commandLists": [
-        {
-          "scopes": [
-            "personal",
-            "groupchat"
-          ],
-          "commands": [
-            {
-              "title": "Personal command 1",
-              "description": "Description of Personal command 1"
-            },
-            {
-              "title": "Personal command N",
-              "description": "Description of Personal command N"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "bots": [],
   "connectors": [],
   "composeExtensions": [],
   "permissions": [
