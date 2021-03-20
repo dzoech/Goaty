@@ -36,6 +36,7 @@
     "@uifabric/example-data": "^7.1.5",
     "faker": "^5.1.0",
     "react": "^16.8.0",
+    "react-datepicker": "^3.6.0",
     "react-dom": "^16.8.0",
     "react-image-picker": "^1.1.1",
     "react-router-dom": "^5.2.0",
