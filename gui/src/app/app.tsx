@@ -7,8 +7,7 @@ import { About } from "./about";
 import { Privacy } from "./privacy";
 import { TermsOfUse } from "./terms_of_use";
 import { DashboardTab } from "./static_tabs/dashboard";
-import { ListTab } from "./static_tabs/list";
-import { BoardsTab } from "./static_tabs/task_boards";
+import { MyInterestsTab } from "./static_tabs/myInterests";
 import { WelcomeTab } from "./static_tabs/welcome";
 
 function App() {
@@ -59,8 +58,7 @@ function App() {
         */}
         <Route path="/welcome" component={WelcomeTab} />
         <Route path="/dashboard" component={DashboardTab} />
-        <Route path="/list" component={ListTab} />
-        <Route path="/board" component={BoardsTab} />
+        <Route path="/myinterests" component={MyInterestsTab} />
       </Switch>
     </Provider>
   );
