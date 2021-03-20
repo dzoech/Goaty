@@ -1,0 +1,27 @@
+{
+  "name": "echobot",
+  "version": "0.0.1",
+  "description": "A simple echoing bot for MS Teams.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "botbuilder": "^4.10.0",
+    "express": "^4.17.1",
+    "@microsoft/microsoft-graph-client": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "microsoft",
+    "bot",
+    "teams"
+  ]
+}
