@@ -1,0 +1,59 @@
+{
+    "$schema": "https://github.com/OfficeDev/microsoft-teams-app-schema/blob/preview/DevPreview/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1.0.2",
+    "id": "74ae7eed-29eb-4d94-b7c5-a6580384f9e1",
+    "packageName": "sittinggoat.bot",
+    "developer": {
+        "name": "SittingGoat",
+        "websiteUrl": "https://example.com",
+        "privacyUrl": "https://example.com",
+        "termsOfUseUrl": "https://example.com/tos"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Goaty",
+        "full": "Goaty Mc Goatface"
+    },
+    "description": {
+        "short": "Help your employees socialize at the virtual water cooler",
+        "full": "Help your employees socialize at the virtual water cooler! We love goats <3"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "conversations",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "about",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "bots": [
+        {
+            "botId": "6eb46363-1e96-4ec8-993a-d9bebd48989d",
+            "scopes": [
+                "personal",
+                "groupchat",
+                "team"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "supportsCalling": true,
+            "supportsVideo": true
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
