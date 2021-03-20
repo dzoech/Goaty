@@ -28,19 +28,19 @@
     {
       "entityId": "myInterets",
       "name": "Welcome",
-      "contentUrl": "https://{{HOSTNAME}}/welcome",
+      "contentUrl": "https://sittinggoat.azurewebsites.net/welcome",
       "scopes": ["personal"]
     },
     {
       "entityId": "sample.app.dashboard",
       "name": "Dashboard",
-      "contentUrl": "https://{{HOSTNAME}}/dashboard",
+      "contentUrl": "https://sittinggoat.azurewebsites.net/dashboard",
       "scopes": ["personal"]
     },
     {
       "entityId": "myInterets",
       "name": "My Interests",
-      "contentUrl": "https://{{HOSTNAME}}/myInterets",
+      "contentUrl": "https://sittinggoat.azurewebsites.net/myInterets",
       "scopes": ["personal"]
     }
   ],
@@ -96,7 +96,7 @@
   "connectors": [],
   "composeExtensions": [],
   "permissions": ["identity", "messageTeamMembers"],
-  "validDomains": ["{{HOSTNAME}}"],
+  "validDomains": ["sittinggoat.azurewebsites.net"],
   "showLoadingIndicator": true,
   "isFullScreen": true
 }
