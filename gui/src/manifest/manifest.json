@@ -1,22 +1,22 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
   "manifestVersion": "1.8",
-  "id": "{{APPLICATION_ID}}",
-  "version": "{{VERSION}}",
-  "packageName": "{{PACKAGE_NAME}}",
+  "id": "eab5e88a-dc8e-4a2d-a0f5-6e523dbb9e24",
+  "version": "1.0.0",
+  "packageName": "com.sittinggoat.app",
   "developer": {
-    "name": "Alexander Katrukhin",
-    "websiteUrl": "https://{{HOSTNAME}}",
-    "privacyUrl": "https://{{HOSTNAME}}/privacy.html",
-    "termsOfUseUrl": "https://{{HOSTNAME}}/tou.html"
+    "name": "Sitting Goat",
+    "websiteUrl": "https://sittinggoat.azurewebsites.net",
+    "privacyUrl": "https://sittinggoat.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://sittinggoat.azurewebsites.net/tou.html"
   },
   "name": {
-    "short": "Teams Sample App",
-    "full": "Teams Sample App"
+    "short": "SittingGoatApp",
+    "full": "Sitting Goat App"
   },
   "description": {
-    "short": "Experience how Teams apps should look and behave in common scenarios.",
-    "full": "The Teams Sample App includes interactive content to help you better understand how your app should look and behave in Teams. Try out forms, dashboards, and other UI templates that meet Teams design standards."
+    "short": "We love goats",
+    "full": "<3"
   },
   "icons": {
     "outline": "icon-outline.png",
@@ -44,7 +44,55 @@
       "scopes": ["personal"]
     }
   ],
-  "bots": [],
+  "bots": [
+    {
+      "botId": "eab5e88a-dc8e-4a2d-a0f5-6e523dbb9e24",
+      "scopes": [
+        "team",
+        "personal",
+        "groupchat"
+      ],
+      "needsChannelSelector": false,
+      "isNotificationOnly": false,
+      "supportsFiles": true,
+      "supportsCalling": false,
+      "supportsVideo": true,
+      "commandLists": [
+        {
+          "scopes": [
+            "team",
+            "groupchat"
+          ],
+          "commands": [
+            {
+              "title": "Command 1",
+              "description": "Description of Command 1"
+            },
+            {
+              "title": "Command 2",
+              "description": "Description of Command 2"
+            }
+          ]
+        },
+        {
+          "scopes": [
+            "personal",
+            "groupchat"
+          ],
+          "commands": [
+            {
+              "title": "Personal command 1",
+              "description": "Description of Personal command 1"
+            },
+            {
+              "title": "Personal command N",
+              "description": "Description of Personal command N"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "connectors": [],
   "composeExtensions": [],
   "permissions": ["identity", "messageTeamMembers"],
