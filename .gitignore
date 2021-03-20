@@ -1,6 +1,7 @@
 gui/node_modules
 gui/build
 gui/temp
+gui/package
 gui/.eslintcache
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,csharp,dotnetcore
