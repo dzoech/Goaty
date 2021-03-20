@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
   "manifestVersion": "1.8",
   "id": "eab5e88a-dc8e-4a2d-a0f5-6e523dbb9e24",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "packageName": "com.sittinggoat.app",
   "developer": {
     "name": "Sitting Goat",
@@ -26,22 +26,13 @@
   "configurableTabs": [],
   "staticTabs": [
     {
-      "entityId": "sample.app.welcome",
-      "name": "Welcome",
-      "contentUrl": "https://sittinggoat.azurewebsites.net/welcome",
-      "scopes": ["personal"]
-    },
-    {
-      "entityId": "sample.app.dashboard",
-      "name": "Dashboard",
-      "contentUrl": "https://sittinggoat.azurewebsites.net/dashboard",
-      "scopes": ["personal"]
-    },
-    {
-      "entityId": "myInterests",
-      "name": "My Interests",
-      "contentUrl": "https://sittinggoat.azurewebsites.net/myInterests",
-      "scopes": ["personal"]
+      "entityId": "index",
+      "name": "Personal Tab",
+      "contentUrl": "https://sittinggoat.azurewebsites.net/index.html#/myinterests",
+      "websiteUrl": "https://sittinggoat.azurewebsites.net/index.html#/myinterests",
+      "scopes": [
+        "personal"
+      ]
     }
   ],
   "bots": [
@@ -58,22 +49,6 @@
       "supportsCalling": false,
       "supportsVideo": true,
       "commandLists": [
-        {
-          "scopes": [
-            "team",
-            "groupchat"
-          ],
-          "commands": [
-            {
-              "title": "Command 1",
-              "description": "Description of Command 1"
-            },
-            {
-              "title": "Command 2",
-              "description": "Description of Command 2"
-            }
-          ]
-        },
         {
           "scopes": [
             "personal",
@@ -95,8 +70,13 @@
   ],
   "connectors": [],
   "composeExtensions": [],
-  "permissions": ["identity", "messageTeamMembers"],
-  "validDomains": ["sittinggoat.azurewebsites.net"],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "sittinggoat.azurewebsites.net"
+  ],
   "showLoadingIndicator": true,
   "isFullScreen": true
 }

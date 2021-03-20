@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "./static/js/main.bc7529f9.chunk.js",
+    "main.js.map": "./static/js/main.bc7529f9.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.5deb7d94.js",
+    "runtime-main.js.map": "./static/js/runtime-main.5deb7d94.js.map",
+    "static/css/2.1eefe314.chunk.css": "./static/css/2.1eefe314.chunk.css",
+    "static/js/2.3d4b910d.chunk.js": "./static/js/2.3d4b910d.chunk.js",
+    "static/js/2.3d4b910d.chunk.js.map": "./static/js/2.3d4b910d.chunk.js.map",
+    "static/js/3.407fa0bb.chunk.js": "./static/js/3.407fa0bb.chunk.js",
+    "static/js/3.407fa0bb.chunk.js.map": "./static/js/3.407fa0bb.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.1eefe314.chunk.css.map": "./static/css/2.1eefe314.chunk.css.map",
+    "static/js/2.3d4b910d.chunk.js.LICENSE.txt": "./static/js/2.3d4b910d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/checkbcd1a436590360ed53ac2f46c76e43e4.de390e5f.png",
+    "static/media/teams-apps.7f0f0820.jpg": "./static/media/teams-apps.7f0f0820.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5deb7d94.js",
+    "static/css/2.1eefe314.chunk.css",
+    "static/js/2.3d4b910d.chunk.js",
+    "static/js/main.bc7529f9.chunk.js"
+  ]
+}
