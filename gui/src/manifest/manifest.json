@@ -26,7 +26,7 @@
   "configurableTabs": [],
   "staticTabs": [
     {
-      "entityId": "sample.app.welcome",
+      "entityId": "myInterets",
       "name": "Welcome",
       "contentUrl": "https://{{HOSTNAME}}/welcome",
       "scopes": ["personal"]
@@ -38,15 +38,9 @@
       "scopes": ["personal"]
     },
     {
-      "entityId": "sample.app.list",
-      "name": "List",
-      "contentUrl": "https://{{HOSTNAME}}/list",
-      "scopes": ["personal"]
-    },
-    {
-      "entityId": "sample.app.boards",
-      "name": "Task boards",
-      "contentUrl": "https://{{HOSTNAME}}/board",
+      "entityId": "myInterets",
+      "name": "My Interests",
+      "contentUrl": "https://{{HOSTNAME}}/myInterets",
       "scopes": ["personal"]
     }
   ],
