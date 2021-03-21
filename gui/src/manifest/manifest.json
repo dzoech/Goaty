@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
   "manifestVersion": "1.8",
   "id": "aaaaa88a-dc8e-4a2d-a0f5-6e523dbb9e24",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "packageName": "com.sittinggoat.app",
   "developer": {
-    "name": "Sitting Goat",
+    "name": "SittingGoat",
     "websiteUrl": "https://sittinggoat.azurewebsites.net",
     "privacyUrl": "https://sittinggoat.azurewebsites.net/privacy.html",
     "termsOfUseUrl": "https://sittinggoat.azurewebsites.net/tou.html"
